@@ -1,7 +1,9 @@
+[include]
+./node_modules/hd-wallet
+
 [ignore]
 .*/node_modules/bitcoinjs-lib-zcash/.*
 .*/node_modules/bitcoinjs-lib/.*
-.*/node_modules/hd-wallet/.*
 .*/node_modules/protobufjs-old-fixed-webpack/src/bower.json
 .*/node_modules/trezor-link/lib/.*
 .*/_old/.*
