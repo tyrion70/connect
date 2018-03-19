@@ -939,6 +939,7 @@ function handleEthereumSignTx(event) {
     let value = event.data.value;
     let data = event.data.data;
     let chain_id = event.data.chain_id;
+    let tx_type = event.data.tx_type;
 
     show('#operation_signtx');
 
@@ -960,7 +961,8 @@ function handleEthereumSignTx(event) {
                 to,
                 value,
                 data,
-                chain_id_sent
+                chain_id_sent,
+                tx_type
             ).catch(handler);
         })
 
